@@ -6,6 +6,8 @@ import { KisCard3 } from "./components/kiskartya3";
 import { Mibol } from "./components/mibol";
 import { Kepek } from "./components/kepek";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Erdemes } from "./components/Erdemes";
+import { Lablec } from "./components/lablec";
 function App() {
   const tart =
     "A pálinka a magyar gasztronómiai és kulturális hagyományok egyik ismert itala. Készítése során erjesztett gyümölcsből lepárlással állítanak elő gyümölcspárlatot" +
@@ -71,6 +73,20 @@ function App() {
         granatalma="Gránátalma"
         granatalmaleiras="A gránátalma gyümölcs, jellegzetes édes-savanykás ízzel és sok apró maggal."
       ></Kepek>
+
+
+    <Erdemes
+      cim="Amit érdemes megjegyezni"
+      erdemes1="A pálinka gyümölcsből készített párlat."
+      erdemes2="Az alapanyag minősége jelentősen befolyásolja a késztermék tulajdonságait."
+      erdemes3="A gyümölcsöt először elő kell készíteni és erjeszteni kell."
+      erdemes4="Az erjesztett gyümölcscefréből lepárlással készül a párlat."
+      erdemes5="A pálinka megnevezés használatát jogszabály szabályozza."
+    />
+    <Lablec
+      author="Melhem Mohamed"
+      date="2026.10.05."
+    />
     </>
   );
 }
